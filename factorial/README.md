@@ -10,3 +10,6 @@ You need have installed docker and docker-compose
 
 - inside back file
     - docker-compose up
+
+## File to test
+- File csv.csv to test
