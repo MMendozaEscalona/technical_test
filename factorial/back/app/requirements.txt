@@ -1,0 +1,10 @@
+Flask==1.1.4
+SQLAlchemy==1.3.22
+Marshmallow-SQLAlchemy==0.26.1
+Flask-SQLAlchemy==2.5.1
+Flask-Marshmallow==0.14.0
+Flask-Cors
+Pandas==1.3.5
+Pymysql==1.0.2
+markupsafe==2.0.1
+cryptography

@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #b0699a;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: #a22f83e6;
+}
