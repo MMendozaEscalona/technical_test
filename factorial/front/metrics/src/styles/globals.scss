@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+body {
+    background-color: #F1F1F1;
+}
+
 input[type=file]::file-selector-button {
     margin-right: 20px;
     border: none;
@@ -13,4 +17,10 @@ input[type=file]::file-selector-button {
 
 input[type=file]::file-selector-button:hover {
     background: #a22f83e6;
+}
+
+.grid {
+    margin-top: 24px;
+    display: grid;
+    gap: 16px
 }

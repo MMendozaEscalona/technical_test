@@ -23,7 +23,7 @@ export const useFetch = () => {
         let data
 
         await fetch(endpoint, {
-            method: options?.method || Methods.get,
+            method: options?.method || Methods.post,
             body:  options?.body ? options?.body : null,
         }).then((response) => response.json())
         .then((result) => data = result);
