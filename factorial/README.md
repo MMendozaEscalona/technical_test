@@ -4,7 +4,7 @@ Factorial test
 You need have installed docker and docker-compose
 
 ## Run front
-- Inside metrics file
+- Inside front file
     - docker build -t test .
     - docker run -p 3000:3000 test
 
